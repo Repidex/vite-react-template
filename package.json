@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy":"wrangler publish --env production"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.20.1",
